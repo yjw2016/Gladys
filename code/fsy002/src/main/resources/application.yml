@@ -1,0 +1,38 @@
+spring:
+  profiles:
+    active: development
+  thymeleaf:
+    cache: false
+  resources:
+    static-locations: classpath:/templates/css/,classpath:/templates/img/
+server:
+  port: 9026
+
+---
+spring:
+  profiles: development
+  datasource:
+      url: jdbc:mysql://192.168.0.100:3306/bebase?useUnicode=true&characterEncoding=utf8
+      username: bebase
+      password: boxfish
+  data:
+    mongodb:
+      host: 192.168.0.100
+      database: beqp
+      username: bebase
+      password: boxfish
+  jpa:
+    generate-ddl: true
+    ddl-auto: update
+    hibernate:
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+  redis:
+    host: 192.168.0.111
+    port: 6379
+    password:
+    database: 1
+
+---
+spring:
+  profiles: test
