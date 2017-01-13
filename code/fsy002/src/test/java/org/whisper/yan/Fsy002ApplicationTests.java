@@ -5,8 +5,8 @@ import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
-import org.whisper.yan.test.entity.Ada;
-import org.whisper.yan.test.service.AdaService;
+import org.whisper.yan.demo.entity.Ada;
+import org.whisper.yan.demo.service.AdaService;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest

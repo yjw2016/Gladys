@@ -1,12 +1,11 @@
-package org.whisper.yan.test.web;
+package org.whisper.yan.demo.web;
 
-import org.springframework.beans.factory.ObjectFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
-import org.whisper.yan.test.entity.Ada;
-import org.whisper.yan.test.service.AdaService;
+import org.whisper.yan.demo.entity.Ada;
+import org.whisper.yan.demo.service.AdaService;
 
 /**
  * Created by yjw on 2017/1/12.
@@ -20,7 +19,7 @@ public class AdaController {
 
     @RequestMapping(value = "/ada",method = RequestMethod.GET)
     public Object regist() {
-        System.out.println("查询用户接口开始");
+        System.out.println("接口开始:demo接口，路径ada，虽然这只是一个测试~");
         Ada ada = new Ada();
         ada = adaService.getAda();
         return ada;

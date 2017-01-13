@@ -1,4 +1,4 @@
-package org.whisper.yan.test.enums;
+package org.whisper.yan.demo.enums;
 
 /**
  * Created by yjw on 2017/1/12.

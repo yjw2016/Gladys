@@ -1,9 +1,9 @@
-package org.whisper.yan.test.service;
+package org.whisper.yan.demo.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.whisper.yan.test.dao.AdaJpaRepository;
-import org.whisper.yan.test.entity.Ada;
+import org.whisper.yan.demo.dao.AdaJpaRepository;
+import org.whisper.yan.demo.entity.Ada;
 
 /**
  * Created by yjw on 2017/1/12.

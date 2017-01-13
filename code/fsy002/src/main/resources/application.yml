@@ -33,6 +33,8 @@ spring:
     password:
     database: 1
 
+demo.url: 'http://192.168.88.86:9026/ada'
+
 ---
 spring:
-  profiles: test
+  profiles: demo

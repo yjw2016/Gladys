@@ -1,8 +1,7 @@
-package org.whisper.yan.test.dao;
+package org.whisper.yan.demo.dao;
 
-import org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration;
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.whisper.yan.test.entity.Ada;
+import org.whisper.yan.demo.entity.Ada;
 
 /**
  * Created by yjw on 2017/1/12.

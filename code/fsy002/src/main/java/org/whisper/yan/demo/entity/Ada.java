@@ -1,4 +1,4 @@
-package org.whisper.yan.test.entity;
+package org.whisper.yan.demo.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
